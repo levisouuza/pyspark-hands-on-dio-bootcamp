@@ -1,4 +1,5 @@
-# pyspark-hands-on-dio-bootcamp
+
+[logo](logo_notebook_dio_hands_on.png)
 Repositório que contempla os materiais para os hands-on de PySpark (Apache Spark) para o bootcamp
 
 ## Link do Notebook
