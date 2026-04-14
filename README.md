@@ -2,7 +2,7 @@
 Repositório que contempla os materiais para os hands-on de PySpark (Apache Spark) para o bootcamp
 
 ## Link do Notebook
-(pyspark_demo_dio_bootcamp)[https://github.com/levisouuza/pyspark-hands-on-dio-bootcamp/blob/main/pyspark_demo_dio_bootcamp.ipynb]
+[pyspark_demo_dio_bootcamp](https://github.com/levisouuza/pyspark-hands-on-dio-bootcamp/blob/main/pyspark_demo_dio_bootcamp.ipynb)
 
 
 ## Link Documentação Instalação SPARK via Google Colab
