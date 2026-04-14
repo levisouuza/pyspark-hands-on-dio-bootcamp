@@ -1,12 +1,16 @@
 # pyspark-hands-on-dio-bootcamp
 Repositório que contempla os materiais para os hands-on de PySpark (Apache Spark) para o bootcamp
 
-# Link Documentação Instalação SPARK via Google Colab
+## Link do Notebook
+(pyspark_demo_dio_bootcamp)[https://github.com/levisouuza/pyspark-hands-on-dio-bootcamp/blob/main/pyspark_demo_dio_bootcamp.ipynb]
+
+
+## Link Documentação Instalação SPARK via Google Colab
 https://medium.com/@dipan.saha/pyspark-made-easy-day-2-execute-pyspark-on-google-colabs-f3e57da946a
 
-# Passo a Passo instalação Spark no Google Colab
+## Passo a Passo instalação Spark no Google Colab
 
-## Passo 1: Download do sparks e outros pacotes essenciais
+### Passo 1: Download do sparks e outros pacotes essenciais
 
 Abra uma célula de código e cole:
 ```python
@@ -17,7 +21,7 @@ Abra uma célula de código e cole:
 !pip install -q findspark # Install findspark. Adds PySpark to the System path during runtime.
 ```
 
-## Passo 2:
+### Passo 2:
 Configuração de variáveis de ambiente:
 
 Abra uma célula de código e cole:
@@ -28,14 +32,14 @@ os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
 os.environ["SPARK_HOME"] = "/content/spark-3.1.1-bin-hadoop3.2"
 ```
 
-## Passo 3:
+### Passo 3:
 Em outra Célula, import a biblioteca e execute o script abaixo
 ```python
 import findspark
 findspark.init()
 ```
 
-## Passo 4:
+### Passo 4:
 Em outra célula
 Crie a sessão do spark:
 
@@ -44,7 +48,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.master("local[*]").getOrCreate()
 ```
 
-## Passo 5:
+### Passo 5:
 Em outra célula, para validar escreva:
 
 ```python
